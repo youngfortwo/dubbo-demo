@@ -13,6 +13,7 @@
     <!--使用dubbo协议在端口中暴露服务-->
     <dubbo:protocol name="dubbo" port="20880"/>
     <!--声明需要暴露的服务接口-->
+
     <dubbo:service interface="net.demo.api.service.DemoService" ref="demoService"/>
 
 </beans>
